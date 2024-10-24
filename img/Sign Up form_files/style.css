@@ -1,0 +1,38 @@
+:root {
+    font-family: "Noto Sans", sans-serif;
+}
+.main {
+    display: flex;
+}
+.left{
+    display: flex;
+    width: 40%;
+}
+
+.split .bg {
+    z-index: 1;
+    width: 100vh;
+}
+
+
+.split .banner {
+    position: absolute;
+    background-color: black;
+    top: 200px;
+    width: inherit;
+    z-index: 2;
+    display: flex;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    opacity: 60%;
+}
+
+.banner p {
+    align-content: center;
+}
+
+.right {
+    display: flex;
+}
+}
